@@ -1,20 +1,43 @@
 {
   "name": "summercamp",
   "displayName": "Summercamp",
-  "description": "A theme inspired by the Zed Editor \"Summercamp\" colour scheme.",
+  "description": "A VS Code dark theme inspired by the Zed Editor \"Summercamp\" colour scheme.",
   "version": "0.0.0",
+  "publisher": "csalmeida",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csalmeida/summercamp-vscode-theme"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "galleryBanner": {
+    "color": "#030304",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.84.0"
   },
-  "categories": [
-    "Themes"
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Zed Editor",
+    "Summercamp",
+    "Minimal"
   ],
+  "icon": "icon.png",
+  "pricing": "Free",
+  "sponsor": {
+    "url": "https://github.com/sponsors/csalmeida"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Summercamp",
         "uiTheme": "vs-dark",
-        "path": "./themes/Summercamp-color-theme.json"
+        "path": "./themes/summercamp-color-theme.json"
       }
     ]
   }
