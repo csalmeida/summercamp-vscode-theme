@@ -8,8 +8,7 @@ To streamline a few more elements and bring it closer to the Zed editor experien
 
 ```json
 {
-  // ... Settings object (trimmed),
-  "editor.bracketPairColorization.enabled": false, // Brackets are all the same color.
-  "editor.guides.indentation": false // Disable indentation lines.
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.indentation": false
 }
 ```
